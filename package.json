@@ -1,0 +1,19 @@
+{
+  "name": "@jorgecasar/my-counter-test",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "web-test-runner test/**/*.test.js --node-resolve"
+  },
+  "dependencies": {
+    "@asdgf/core": "^0.0.4",
+    "@open-wc/testing": "^3.0.0",
+    "@esm-bundle/chai": "^4.0.0"
+  },
+  "devDependencies": {
+    "@asdgf/web-test-runner": "^0.0.4",
+    "@web/test-runner": "^0.13.22"
+  }
+}
