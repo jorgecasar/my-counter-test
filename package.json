@@ -1,6 +1,6 @@
 {
   "name": "@jorgecasar/my-counter-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
 	"author": "Jorge del Casar",
   "license": "MIT",
   "type": "module",
@@ -19,7 +19,7 @@
 		"my-counter"
   ],
   "exports": {
-    "./": "./src/index.js",
+    ".": "./src/index.js",
     "./web-test-runner.config.js": "./web-test-runner.config.js"
   },
   "dependencies": {
