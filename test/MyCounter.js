@@ -45,9 +45,9 @@ export class MyCounter extends HTMLElement {
 
 	connectedCallback() {
     this.incBtn.addEventListener('click', this.inc);
-		this.incBtn.addEventListener('click', this.dec);
-		if (!this.hasAttribute('value')) {
-			this.setAttribute('value', 0);
+		this.decBtn.addEventListener('click', this.dec);
+		if (!this.hasAttribute('count')) {
+			this.setAttribute('count', 0);
 		}
   }
 
