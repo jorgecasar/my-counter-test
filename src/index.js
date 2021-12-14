@@ -1,4 +1,4 @@
-import { describe } from "@asdgf/core";
+import { describe, executeTests } from "@asdgf/core";
 import { assert, html } from "@open-wc/testing";
 import { fixture, fixtureCleanup } from "@open-wc/testing-helpers/pure";
 

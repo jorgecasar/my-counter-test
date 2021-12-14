@@ -1,6 +1,6 @@
 {
   "name": "@jorgecasar/my-counter-test",
-  "version": "0.0.2",
+  "version": "0.0.3",
 	"author": "Jorge del Casar",
   "license": "MIT",
   "type": "module",
@@ -24,8 +24,7 @@
   },
   "dependencies": {
     "@asdgf/core": "^0.0.4",
-    "@open-wc/testing": "^3.0.0",
-    "@esm-bundle/chai": "^4.0.0"
+    "@open-wc/testing": "^3.0.0"
   },
   "devDependencies": {
     "@asdgf/web-test-runner": "^0.0.4",
