@@ -1,20 +1,27 @@
 {
   "name": "@jorgecasar/my-counter-test",
   "version": "0.0.1",
+	"author": "Jorge del Casar",
+  "license": "MIT",
   "type": "module",
   "main": "src/index.js",
   "module": "src/index.js",
   "scripts": {
     "test": "web-test-runner test/**/*.test.js --node-resolve"
   },
-	"files": [
-		"src",
-		"web-test-runner.config.js"
-	],
-	"exports": {
-		"./": "./src/index.js",
-		"./web-test-runner.config.js": "./web-test-runner.config.js"
-	},
+  "files": [
+    "src",
+    "web-test-runner.config.js"
+  ],
+	"keywords": [
+    "test",
+		"web components",
+		"my-counter"
+  ],
+  "exports": {
+    "./": "./src/index.js",
+    "./web-test-runner.config.js": "./web-test-runner.config.js"
+  },
   "dependencies": {
     "@asdgf/core": "^0.0.4",
     "@open-wc/testing": "^3.0.0",
@@ -24,11 +31,19 @@
     "@asdgf/web-test-runner": "^0.0.4",
     "@web/test-runner": "^0.13.22"
   },
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:jorgecasar/my-counter-test.git"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jorgecasar/my-counter-test.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "This is a package for testing a counter web component. It's used for testing [all ways to make a web component](https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/) and know what is implemented and what not in each way.",
+  "bugs": {
+    "url": "https://github.com/jorgecasar/my-counter-test/issues"
+  },
+  "homepage": "https://github.com/jorgecasar/my-counter-test#readme",
+  "directories": {
+    "test": "test"
+  }
 }
