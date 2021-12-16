@@ -1,9 +1,8 @@
-import { describe, executeTests } from "@asdgf/core";
 import { assert, html } from "@open-wc/testing";
 import { fixture, fixtureCleanup, oneEvent } from "@open-wc/testing-helpers/pure";
 
-export const runTests = (MyCounter) => {
-  describe("My Counter", ({ it, afterEach }) => {
+export const describeTestFor = (MyCounter, { describe }) => {
+  describe("My Counter", ({ afterEach }) => {
     afterEach(fixtureCleanup);
 
 		describe("constructor", ({ it }) => {
@@ -84,9 +83,4 @@ export const runTests = (MyCounter) => {
 			});
 		});
   });
-
-  /**
-   * Returns a test report
-   */
-  return executeTests();
 };

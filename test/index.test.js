@@ -1,4 +1,5 @@
-import { runTests } from '../src/index.js';
+import { describe } from "@asdgf/core";
+import { describeTestFor } from '../src/index.js';
 import { MyCounter } from './MyCounter.js';
 
-runTests(MyCounter);
+describeTestFor(MyCounter, { describe });
